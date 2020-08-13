@@ -1,4 +1,6 @@
-/* Formatted on 2020/8/13 12:48:44 (QP5 v5.256.13226.35510) */
+--Email: liqiang3@sugon.com
+--Usage: Storage testing by oracle sql insert,select,update,delete.
+
 CREATE OR REPLACE PROCEDURE sugon_oracle_longrun_1 (
    v_sizeg   IN NUMBER := 10,
    v_table   IN VARCHAR2 := 'test_table1',
